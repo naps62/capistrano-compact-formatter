@@ -1,3 +1,2 @@
-# require 'capistrano-compact-formatter/version'
-# require 'capistrano-compact-formatter/spinner'
-# require 'sshkit/formatter/simple'
+require 'capistrano-compact-formatter/version'
+require 'sshkit/formatter/compact'
