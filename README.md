@@ -1,4 +1,4 @@
-# Capistrano::Compact::Formatter
+# Capistrano Compact Formatter
 
 Custom formatter for Capistrano 3, with compact output, and opinionated according to my own needs.
 
