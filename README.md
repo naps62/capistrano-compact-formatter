@@ -9,7 +9,7 @@ A quick breakdown of what it does:
 * no difference for each log level. I might add this in the future, but at this point, I didn't feel the need;
 * each command is printed in a single line, containing a trimmed message and a success flag;
 * if a command has output in stdout/stderr, it will be printed below, with a leading tab, in green/red respectively;
-* conditional commands (i.e. commands with the format `[ some_bash_condition ]`) will not be printed. They return frequently return false, which would output a red failure flag. I find that misleading, since it doesn't mean the deploy failed. It's merely a condition that evaluated to false.
+* conditional commands (i.e. commands with the format `[ some_bash_condition ]`) will not be printed. They frequently return false, which would output a red failure flag. I find that misleading, since it doesn't mean the deploy failed, it's merely a condition that evaluated to false.
 
 Sample output:
 
